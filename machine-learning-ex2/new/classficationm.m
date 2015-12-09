@@ -57,7 +57,7 @@ do
   t = t + 1;
  % plot(t,J,'bk');
  % hold on
-until t == 6000 
+until t == 8000 
 %until J <= 0.452
 printf('%f %f \n',J)
 plotDecisionBoundary(theta, x, y);
