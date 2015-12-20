@@ -1,6 +1,5 @@
 % data%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 clear
-cd D:\ml\machine-learning-ex1\new
 data = load('ex1data2.txt');
 x1 = data(:, 1); x2 = data(:, 2); y = data(:, 3);
 m = length(y); 

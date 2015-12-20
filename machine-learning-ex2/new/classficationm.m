@@ -27,7 +27,7 @@ do
   t = t + 1;
   A(t) = J;
 until t == 5000 %%min J later through the figure
-%until J <= 0.452
+%until J <= 0.6
 printf('%f %f \n',J)
 plotDecisionBoundary(theta, x, y);
 hold off;
